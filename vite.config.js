@@ -7,7 +7,7 @@ export default {
   plugins: [react()],
   root: "src/",
   publicDir: "../public/",
-  base: "/r3f-portfolio/",
+  base: "./",
   server: {
     host: true,
     open: !isCodeSandbox, // Open if it's not a CodeSandbox
